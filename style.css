@@ -132,9 +132,9 @@ a{
     color:var(--main);
     opacity: 0;
 }
- .intro2 img {
+ /* .intro2 img {
     opacity: 0;
-}
+} */
 .hidden {
     overflow: hidden;
     padding:3rem;
@@ -144,12 +144,14 @@ a{
 }
 .hidden2 span {
 	display: inline-block;
-    transform: translateY(100%);
+    /* transform: translateY(100%); */
+    transform: translateY(0%);
     padding: 2rem;
 }
 .hidden2 p {
     display: inline-block;
-    transform: translateY(100%);
+    /* transform: translateY(100%); */
+    transform: translateY(0%);
     color:var(--main);
     text-transform: capitalize;
     font-size: 2rem;
